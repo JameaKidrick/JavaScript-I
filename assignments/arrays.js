@@ -92,8 +92,8 @@ console.log(`${inventory[lastCar].car_make} ${inventory[lastCar].car_model}`);
 let carModels = [];
 for(i = 0; i < inventory.length; i++){
   carModels.push(inventory[i].car_model);
-  console.log(carModels.sort())
 }
+console.log(carModels.sort())
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
@@ -126,4 +126,4 @@ for(i = 0; i < inventory.length; i++){
     continue;
   }
 }
-JSON.stringify(BMWAndAudi);
+console.log(JSON.stringify(BMWAndAudi));
